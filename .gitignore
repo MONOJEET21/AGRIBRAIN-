@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Dataset and temporary files
+Datasets/
+field_photos/
+training/error_analysis/
+.ipynb_checkpoints/
+
+# Generated reports
+*.csv
+*.log
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
